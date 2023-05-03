@@ -3,7 +3,9 @@ lsp.preset('recommended')
 lsp.ensure_installed({
 	'tsserver',
 	'eslint',
-	'rust_analyzer'
+	'rust_analyzer',
+    'vuels',
+    'svelte'
 })
 lsp.on_attach(function (client,bufnr)
 	local opts = {buffer=bufnr,remap=false}
