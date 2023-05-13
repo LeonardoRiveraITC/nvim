@@ -18,8 +18,8 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   use({ 'rose-pine/neovim', as = 'rose-pine' })
-
-  vim.cmd('colorscheme rose-pine')
+  use ({'folke/tokyonight.nvim', as = 'tokyonight'})
+  vim.cmd('colorscheme tokyonight-night')
   use('nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'})
   use ('nvim-treesitter/playground')
   use ('nvim-lua/plenary.nvim')-- " don't forget to add this one if you don't have it yet!

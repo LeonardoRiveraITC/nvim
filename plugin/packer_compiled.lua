@@ -169,6 +169,11 @@ _G.packer_plugins = {
     path = "/home/androidb/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  tokyonight = {
+    loaded = true,
+    path = "/home/androidb/.local/share/nvim/site/pack/packer/start/tokyonight",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   undotree = {
     loaded = true,
     path = "/home/androidb/.local/share/nvim/site/pack/packer/start/undotree",
